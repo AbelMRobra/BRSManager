@@ -73,17 +73,17 @@ const Navbar = () => {
                         <div className="right"></div>
                     </div>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/"} >
+                        <Link className="nav-link" to="/" >
                             <i className="fas fa-home"></i>Home
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/coffee"} >
+                        <Link className="nav-link" to="/coffee" >
                             <i className="fas fa-coffee"></i>Start
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/coffee"} >
+                        <Link className="nav-link" to="/coffee" >
                             <i className="fas fa-cogs"></i>Settings
                         </Link>
                     </li>
@@ -98,27 +98,27 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/analysis"} >
+                        <Link className="nav-link" to="/analysis" >
                             <i className="fas fa-glasses"></i>Analysis
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/budgets"} >
+                        <Link className="nav-link" to="/budgets" >
                             <i className="fas fa-city"></i>Budgets
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/user-guide"} >
+                        <Link className="nav-link" to="/user-guide" >
                             <i className="fas fa-tachometer-alt"></i>Dashboard
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/user-guide"} >
+                        <Link className="nav-link" to="/user-guide" >
                             <i className="fas fa-wallet"></i>Bills
                         </Link>
                     </li>
                     <li className="nav-item active">
-                        <Link className="nav-link" to={"/user-guide"} >
+                        <Link className="nav-link" to="/user-guide" >
                             <i className="fas fa-code"></i>Plugins
                         </Link>
                     </li>

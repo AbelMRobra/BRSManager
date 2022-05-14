@@ -18,30 +18,16 @@ import Start from "./pages/starting/Start"
 export default function App() {
   return (
     <BrowserRouter>
-      <main> 
-      <Navbar/>
+        <Navbar/>
         <Switch>
-          <Route path="/home">
-            <Home/> 
-          </Route>
-          <Route path="/coffee">
-            <Start/> 
-          </Route>
-          <Route path="/supplies"> 
-            <Supplies/> 
-          </Route>
-          <Route path="/analysis">
-            <Analysis/>  
-          </Route>
-          <Route path="/budgets">
-            <Budgets/>  
-          </Route>
-          <Route path="/user-guide">
-            <UserGuide/>  
-          </Route>
-          <Redirect to="/home" />
+          <Route exact path="/" > <Home /> </Route>
+          <Route path="/coffee" > <Start /> </Route>
+          <Route path="/supplies" > <Supplies /> </Route>
+          <Route path="/analysis" > <Analysis /> </Route>
+          <Route path="/budgets" > <Budgets /> </Route>
+          <Route path="/user-guide" > <UserGuide /> </Route>
+          <Redirect to="/" />
         </Switch>
-      </main>
     </BrowserRouter>
   )
 };
